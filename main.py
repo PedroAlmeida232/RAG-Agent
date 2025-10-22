@@ -28,7 +28,7 @@ def perguntar():
 
     resultados = db.similarity_search_with_relevance_scores(pergunta,k=4)
     if len(resultados) == 0 or resultados[0][1] < 0.7:
-        print("Nao conseguiu encontrar alguma informacao relevante na base")
+        print("Nao conseguiu encontrar alguma informacao relevante na base.")
         return
     textos_resultado =[]
     for resultado in resultados:
