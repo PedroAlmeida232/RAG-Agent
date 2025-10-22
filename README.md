@@ -81,7 +81,7 @@ O agente irá solicitar que insira a sua pergunta e, em seguida, fornecerá uma 
     *   Os chunks recuperados são combinados com a pergunta do utilizador para formar um `prompt` enriquecido.
     *   Este `prompt` é enviado para um `ChatOpenAI` (LLM) que gera uma resposta contextualizada.
 
-##Feito por: 
+###Feito por: 
 
-**Pedro Rodrigues Almeida 
+Pedro Rodrigues Almeida 
 
