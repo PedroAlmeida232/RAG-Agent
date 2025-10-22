@@ -32,5 +32,5 @@ def dividir_chunks(documentos):
 
 def vetorizar_chunks(chunks):
     db = Chroma.from_documents(chunks, OpenAIEmbeddings(), persist_directory='database')
-    print("Banco de dados criado com sucesso")
+    print("Banco de dados criado com sucesso.")
 criar_db()

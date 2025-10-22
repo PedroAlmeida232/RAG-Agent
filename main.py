@@ -19,7 +19,7 @@ Com base nessas informacoes:
 
 """
 def perguntar():
-    pergunta = input("Escreva sua pergunta")
+    pergunta = input("Escreva sua pergunta: ")
 
     #Carregar o banco dados
     funcao_embedding = OpenAIEmbeddings()
